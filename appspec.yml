@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/html/dileep
+    destination: /var/www/html/dileep/cicd-ubuntu
 hooks:
   BeforeInstall:
     - location: scripts/dummy.sh
